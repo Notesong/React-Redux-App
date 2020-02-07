@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 
 import BeerForm from './components/BeerForm';
+import BeerList from './components/BeerList';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       </header>
       <section>
         <BeerForm />
+        <BeerList />
       </section>
     </div>
   );

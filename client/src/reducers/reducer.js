@@ -1,7 +1,7 @@
-import { FETCH_DATA, UPDATE_BEERS, SET_ERROR } from "../actions/actions";
+import { FETCH_DATA, UPDATE_BEER, SET_ERROR } from "../actions/actions";
 
 const initialState = {
-  missions: [],
+  beer: [],
   isFetchingData: false,
   error: ""
 };
@@ -12,12 +12,12 @@ export const reducer = (state = initialState, action) => {
       return {
         ...state,
         isFetchingData: true,
-        missions: []
+        beer: []
       };
-    case UPDATE_BEERS:
+    case UPDATE_BEER:
       return {
         ...state,
-        missions: action.payload,
+        beer: action.payload,
         isFetchingData: false
       };
     case SET_ERROR:
