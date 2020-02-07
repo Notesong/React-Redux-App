@@ -10,13 +10,13 @@ const BeerForm = props => {
   };
 
   return (
-    <>
+    <div className="beer-form">
       {props.isFetchingData ? (
         <div>**we are fetching data**</div>
       ) : (
         <button onClick={handleGetData}>get data</button>
       )}
-    </>
+    </div>
   );
 };
 

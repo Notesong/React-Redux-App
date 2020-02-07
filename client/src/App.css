@@ -10,3 +10,39 @@
   justify-content: center;
   color: white;
 }
+
+.beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.beer {
+  background-color: rgb(223, 223, 223);
+  margin: 3rem;
+  padding: 2rem;
+  width: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.beer img {
+  height: 200px;
+  margin: 2rem;
+}
+
+.beer p {
+  text-align: justify;
+}
+
+button {
+  background-color: rgb(76, 107, 175);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 2rem;
+}
